@@ -1,0 +1,9 @@
+pygame==1.9.3
+pretty_midi
+midiutil
+
+[dev]
+check-manifest
+
+[test]
+coverage
