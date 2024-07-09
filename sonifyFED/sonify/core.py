@@ -186,7 +186,7 @@ def write_to_midifile(data, track_type='single', volume=90, tempo=120, duration=
     ###RWC edit 7/22 to save midi file to working dir
     #if colab:
     print("Saving to midi file")
-    with open("midioutput.mid", 'wb') as binfile:
+    with open("view/midioutput.mid", 'wb') as binfile:
         midifile.writeFile(binfile)
 
     return memfile
